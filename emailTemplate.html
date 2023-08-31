@@ -14,16 +14,16 @@
     <div class="row">
       
       
-        <div id=”welcome” class="col-3 border border-dark">
+        <div id=”welcome” class="col-2 border border-dark">
           <h1>Welcome</h1>
           <div class="mailbox">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
           </svg></div>
         
-
+          <br></br>
         <button type="button" class="btn btn-secondary mt-3">Compose</button>
-        
+        <br></br>
         <div id="list">
           <ul class="list-group">
             <li class="list-group-item">Inbox</li>
@@ -33,25 +33,21 @@
             <li class="list-group-item">Trash</li>
           </ul>
         </div>  
-
-
-
-
         </div>
 
 
 
         <div id=”emails” class="col-3 border border-info">
-          <h1>List of emails</h1>     
-          
+          <h1>Email List</h1>     
+          <br></br>
           <div id="emailOne" class="card">
-            <div class="card-body">
+            <div class="card-body" style="bottom: ;">
               <p>August 19, 2023</p>
               <p><b>What time should I get there</b></p>
               <p>In the email you sent earlier you did...</p>
             </div>
           </div>
-
+          <br></br>
           <div id="emailTwo" class="card">
             <div class="card-body">
               <p>August 17, 2023</p>
@@ -63,13 +59,17 @@
 
         <div id=”read” class="col-6 border border-primary">
           <h1>Open email</h1>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+          </svg>
           <p>From: person@fakemail.com</p>
           <p>To: george@fakemail.com</p>
           <h2>Hi George</h2>
           <p>Lets meet up this weekend at Habit, I recently got some time off from my work so let me know a time that works for you.</p>
           <div class="card" style="width: 39.5rem; height: 25rem;" >
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title"><i>subject</i></h5>
               <p class="card-text"><i>type here</i></p>
             </div>
             <a href="#" class="btn btn-primary" style="width: 7rem;">Send</a>

@@ -1,0 +1,18 @@
+
+.col-2 {
+background-color: rgb(107, 107, 107);
+}
+.col-3 {
+    background-color: rgb(32, 136, 136);
+}
+.col-6 {
+    background-color: rgb(213, 243, 233);
+}
+
+.mailbox {
+   text-align: center;
+}
+
+.mt-3{
+    background-color:rgb(185, 185, 185);
+}
